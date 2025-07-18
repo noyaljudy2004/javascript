@@ -1,0 +1,53 @@
+js
+-----------
+node js:javascript run time environment and js library
+2 types of data
+primitive-they store simple value
+----------
+number-any number
+string-text or word
+boolean-true or false
+undefined-variable with no value yet
+null-no value
+bigInt-very big integer
+symbol-to create unique identifier
+non-primitive-they store complex value
+-------------
+object
+
+
+-To check type of data use 'typeof'keyword
+-console.log() used to display content
+-creating variable in js
+variable:to store data
+-using var keyword
+-using const keyword
+-using let keyword
+-identifier:unique value,class,variable,function etc
+-rules of creating identifier
+-can have letters digits and underscore
+-start with either letters or underscore
+-keyword cannot be used as identifier
+
+-hoisting:accessing variable/fjunction before decleration
+var
+----
+-creating using var keyword
+-re-assign with any type of value
+-global scope
+-hoisted with a value undefined
+
+
+const
+------
+-use const keyword
+-cannot reasign with values
+-block scope
+
+let
+-----
+-use let keyword
+-can reassign its value
+-hoisted without value
+-block scope
+

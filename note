@@ -51,3 +51,22 @@ let
 -hoisted without value
 -block scope
 
+operator
+-------
+assign...
+arith...
+relatio....
+logical...
+
+increment(++) or decrement(--)
+
+-shorthand operators:+=,-+,*=,/=
+
+-joining different types of data in js
+-using (,)
+-using concantination operator(+)
+-using template litterals
+
+-condition statement in js
+==========================
+if,else if ladder,if else,switch

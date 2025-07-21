@@ -70,3 +70,20 @@ increment(++) or decrement(--)
 -condition statement in js
 ==========================
 if,else if ladder,if else,switch
+switch
+=======
+switch(exp){
+    case a: statement
+    case b:statement
+    default:statement
+}
+
+looping statement in js
+========================
+-while loop
+syntax:inialize a variable
+while(condition){
+    -statement to be executed
+   - while condition become true
+   -update iterating variable
+}

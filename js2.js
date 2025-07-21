@@ -28,17 +28,33 @@
 //     console.log("Zero");
     
 // }
-num1=20
-num2=20
-if(num1>num2){
-    console.log(`${num1} is a larger than ${num2}`);
+// num1=20
+// num2=20
+// if(num1>num2){
+//     console.log(`${num1} is a larger than ${num2}`);
     
+// }
+// else if(num1<num2){
+//     console.log(`${num2} is a larger than ${num1}`);
+    
+// }
+// else{
+//     console.log("both are equal");
+    
+// }
+
+// task 1
+tas=12
+if(tas%15==0) {
+        console.log(`fizzz buzz`);
+        
+} else if (tas%3==0) {
+         console.log(`fizzz`);
 }
-else if(num1<num2){
-    console.log(`${num2} is a larger than ${num1}`);
-    
+else if (tas%5==0) {
+         console. log(` buzz`);
 }
 else{
-    console.log("both are equal");
-    
+        console.log(`not dvisable by 3,5,15 `);
+        
 }

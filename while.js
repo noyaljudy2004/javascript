@@ -20,7 +20,7 @@
 
 //   let i=5
 //   while(i>=1){{
-//     console.log(i);
+//     console.log(i); 
 //     i--
     
 //   }}

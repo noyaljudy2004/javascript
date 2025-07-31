@@ -87,3 +87,55 @@ while(condition){
    - while condition become true
    -update iterating variable
 }
+-for loop
+syntx:
+for(init..variable;condition;update variable){
+    body of the loop
+}
+
+functions in js
+-------------------
+to perform specific task during the code
+2parts-
+function definition-defining the task to be performed
+syntx:function function-name(parameters){
+    function body
+}
+-function call:to execute
+syntx:function-name(arguments)
+
+types of function
+--------------------
+-arrow function-alternative of function
+defition
+syntx:function_name=(parameters)=>{
+    functon body
+}
+-pre defined functions
+ex:console.log(),math.ceil(),math.floor()
+-callback function: a
+function definition inside a function call.completes its execution only after the completion of functon inside it.
+
+-nested function-a function definition inside another function definition
+
+
+-reccurssive function:calling a function inside its own function
+array
+=======
+    -array-to hold multiple values in a single variable
+    types of an array in an object
+    -to find the total number of elements in an array use 'length' property
+    syntx:array-name.length
+    -to access an array elementsuse its index value
+    syntx:array-name[index]
+    -accessing array elements
+    -using normal forloop
+    -using for of loop
+    -using for-in loop
+
+    -array methods-pre defined method of manipulate array data
+
+    -push(item):to add an item at the end of an array
+    -unshift(item):to add an item at the first of an array
+    -pop(: to remove last element)
+    -shift:to remove last element

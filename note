@@ -139,3 +139,15 @@ array
     -unshift(item):to add an item at the first of an array
     -pop(: to remove last element)
     -shift:to remove last element
+    -sort(compare fn):to sort an array
+    compare fn:(num1,num2)=>num1-num2 :asending
+        compare fn:(num1,num2)=>num2-num1 :asending
+    for each():(callbackfn:(value,index,array)=>void):alternative of for -of-loop
+    -filter(callbackfn:(value,index,array)=>[]):return an array with elements satisfying the condition from an existing array
+    -find(callback):return an item satisfying the condition from an existingarray
+    -map:return a new array with values after applying a mapping function to existing array
+    -reduce(callback,initialvalue)
+    -callback:(required):a function executed on each element
+    -callback(accumulator(to store),currentvalue,currentvalue,currrentindex,array)
+    -some(callback)
+

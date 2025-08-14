@@ -67,6 +67,8 @@ increment(++) or decrement(--)
 -using concantination operator(+)
 -using template litterals
 
+-spread:(..):used to combine iterativing variable into a single variable
+
 -condition statement in js
 ==========================
 if,else if ladder,if else,switch
@@ -138,7 +140,7 @@ array
     -push(item):to add an item at the end of an array
     -unshift(item):to add an item at the first of an array
     -pop(: to remove last element)
-    -shift:to remove last element
+    -shift:to remove first element
     -sort(compare fn):to sort an array
     compare fn:(num1,num2)=>num1-num2 :asending
         compare fn:(num1,num2)=>num2-num1 :asending
@@ -150,4 +152,38 @@ array
     -callback:(required):a function executed on each element
     -callback(accumulator(to store),currentvalue,currentvalue,currrentindex,array)
     -some(callback)
+    flat-return an array with corresponding depth as diamension
+    -includes(item):return boolean based on the item present the array
+    -indexof(item):return index value corresponding to the item
+    -splice(startingIndex,deletecount):to remove array elementsuse
+    -join(seperator):used to join alll join all elements of an array into single string
+    string
+    ==========
+    -content that put in "or''
+    -string method
+    -substring(startingindex,endingindex)
+    startswith,endswith,uppercase,lowercase,trim:to remove white space,split:used to split a string into an array of substring,based on specified operator
+    -slice:(startingIndex,EndingIndex):to get substring from a string
+-object:used to store multiple data in a single variable.data stored as key:value pair
+ex:object_name={key:value,keyvalue...}
+key:to access data from an object
+syntax:object_name["key"]/object_name.key
+-used to check a key present in an object or not 
+use,'in' operator
+syntax:key in object_name,return boolean value
+-hasOwnProperty(key)
+-object.values(object_name) : return an array , which contain values in object 
+-object.keys(object_name) : return an array , which contain keys in object 
+-object.assign(object_name{key:value}) : to insert data to an object
 
+OOPS
+----------
+oops stands for object oriented programming,it is a programming style where codes you organise code into
+    object-that hold:
+    -Data:called properties(ex: name,age,price...)
+    -behaviors: called methods(function that work on data)
+    -core concept
+    -class:blue print/template for creating object
+    -object:a real word entity created from the class
+    -constructor:a method is used to intialise class property at the time of an creation
+    -reference:'this ' keyword:  

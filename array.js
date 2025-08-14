@@ -72,8 +72,14 @@ covid_data=[
 // totalsum
 // console.log(covid_data.reduce((accumulator,value)=>accumulator+value[4],0));
 // console.log(covid_data.find(cov=>cov[1]=="trissur"));
- console.log
-  (covid_data.some(d1=>d1[2]>15000)?`YES`:`NO`);
+//  console.log
+//   (covid_data.some(d1=>d1[2]>15000)?`YES`:`NO`);
+
+// console.log(covid_data.find(cov=>cov[1]=="idukki")[4]);
+
+// console.log(covid_data.reduce((acc,val)=>acc+val[4],0));
+
+
 
 
 

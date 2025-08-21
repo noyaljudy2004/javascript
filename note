@@ -67,7 +67,7 @@ increment(++) or decrement(--)
 -using concantination operator(+)
 -using template litterals
 
--spread:(..):used to combine iterativing variable into a single variable
+-spread:(...):used to combine iterativing variable into a single variable
 
 -condition statement in js
 ==========================
@@ -186,4 +186,46 @@ oops stands for object oriented programming,it is a programming style where code
     -class:blue print/template for creating object
     -object:a real word entity created from the class
     -constructor:a method is used to intialise class property at the time of an creation
-    -reference:'this ' keyword:  
+    -reference:'this ' keyword: used to refer properties to its class
+
+    -oops Features
+    -Inheritance: one class can inherit properties and methods from another class using 'extends' keyword. Inheritance promotes code reuseability 
+    -inheritance between classes is known as classical inheritance and between object is known as prototype inheritance.
+    -polymorphism: same function name ,different behaviour.to implement polymorphism in js use
+    rest(...):operator: to collect values into an array
+    -Abstraction: showing only the essential details and hiding the complex implementation
+    -Enscapsulation:wrapping the data(variable) and method into a single unit(a class)
+    
+    -js-front-end concepts
+    ----------------------------
+    -used to make web page dynamic
+    -ways to apply js in html
+    -internal js: use script tag to provide js code in html
+    -external js:link external js file in html using script tag 
+    -DOM(document object model)it is a document model for a webpage.a tree like structure corresponding to a webpage,there will be a single root model(html tag)which is made up of js object
+    -js can access webpage/html element via DOM using 'document' object
+    -selecting html elements into js code
+    -using tagname:document.getElementsByTagname('tagname')
+    -using Id:document.getElementById('id')
+    -using classname:document.
+    grtElementsByClassname
+    -document.querySelector('tagname'/'classname')
+    -query selector return only single element
+    -to return all elements which have same
+    classname/tagname use document.querySelectorAll
+    ()
+    ======================================================================
+    -Events:an event is an action that happens in browser,
+    which javascript can respond to.
+    types of Events
+    -mouse Events
+    -click -when an element is clicked 
+    -mouseover-when an element moved over an element
+    -mouseout-when mouse leaves an element
+    ==keyboard Event
+    -keydown-when key is pressed
+    -keyup-when a key is released
+    -Form Events
+    -submit-when a form submitted
+    -change-when a value of input change
+

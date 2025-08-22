@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In-Page</title>
+    <!-- Bootstap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="d-flex align-items-center  flex-column vw-100 vh-100 " style="margin-left: -350px;">
+        
+        <!-- Heading -->
+
+        <div style="margin-top: 200px; margin-left:-80px; margin-bottom: 20px;">
+            <h1>Welcome To Employee Portal</h1>
+            <h5 style="font-weight: 100;">Sign Into Your Account</h5>
+            
+        </div>
+
+        <!-- input feilds -->
+         <!-- User name -->
+
+        <div class="form-floating" style="margin-left:-100px;margin-bottom: 20px;">
+
+  <input style="width: 500px;" type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+  <label for="floatingInput">Email address</label>
+
+</div>
+
+         <!-- Password -->
+<div class="form-floating" style="margin-left:-100px;">
+
+  <input style="width: 500px;" type="password" class="form-control" id="floatingPassword" placeholder="Password">
+  <label for="floatingPassword">Password</label><br><br>
+
+</div>
+<div>
+
+
+<a style="width: 200px;margin-left: -100px;" class="btn btn-primary" href="loginshow.html" role="button">Login</a>
+</div>
+
+         <!-- Img -->
+
+         <div>
+            <img style="width: 450px; margin-left: 1100px; margin-top: -300px;" src="https://cdn2.hubspot.net/hubfs/5242301/Blog%20Images/Happy%20Employee%20Dovetail%20Employee%20Portal.jpg" alt="" >
+         </div>
+
+
+    </div>
+    
+</body>
+<script>
+    const Login=()=>{
+    const username=document.getElementById("floatingInput").value
+    const password=document.getElementById("floatingPassword").value
+    if(username && Password){
+          window.location="loginshow.html"
+       
+        sessionStorage.setItem("Username",username)
+         sessionStorage.setItem("Password",password)
+        
+
+    }else{
+
+        alert("Enter User name & Password ")
+    }
+}
+    
+</script>
+</html>>

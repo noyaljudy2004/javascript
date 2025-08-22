@@ -31,5 +31,9 @@ const Result=()=>{
         display.placeholder="Invalid Experssion!!"
         
     }
+    finally{
+        console.log("task completed");
+        
+    }
     
 }
